@@ -25,7 +25,7 @@ O projeto foi desenvolvido para apoiar análises acadêmicas de variação de pr
 
 ## Instalação
 
-Acesse o repositório anônimo em [AirPrice](https://anonymous.4open.science/r/AirPrice-40A3/) e baixe o projeto clicando em **Download Repository (ZIP)** no canto superior da página.
+Acesse o repositório anônimo em [AirPrice](https://anonymous.4open.science/r/AirPrice-8FB3) e baixe o projeto clicando em **Download Repository (ZIP)** no canto superior da página.
 
 Após o download, extraia o arquivo ZIP em sua máquina.
 
