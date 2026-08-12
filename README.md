@@ -85,7 +85,7 @@ Esse script executa todas as rotas cadastradas em `ROTAS_DISPONIVEIS` para as ja
 
 Confira o funcionamento do sistema em execução na interface gráfica:
 
-[Assista ao vídeo demonstrativo](https://l1nk.dev/0YbEY)
+[Assista ao vídeo demonstrativo](https://l1nk.dev/OhEzdX2)
 
 ## Configuração
 
