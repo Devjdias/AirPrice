@@ -186,12 +186,12 @@ Para detalhes de arquitetura, fluxo de execução, dataset, tratamento de evidê
 
 ## 📖 Documentação Técnica Avançada e Modelagem UML
 
-Para compreender detalhadamente a arquitetura do projeto, o fluxo de execução da coleta e os pontos de extensibilidade, consulte a [Documentação Técnica](docs/DOCUMENTACAO_TECNICA.md), que reúne os três diagramas abaixo:
+Para compreender detalhadamente a arquitetura do projeto, o fluxo de execução da coleta e os pontos de extensibilidade, consulte a [Documentação Técnica](docs/DOCUMENTACAO_TECNICA.md), que reúne os três diagramas abaixo (`.png` para visualização direta no navegador; `.pdf` com a mesma imagem em vetor, para download):
 
-- 📊 **[Diagrama de Casos de Uso](data/diagrama_casos_de_uso.pdf):** mapeamento das interações do operador com a ferramenta (coleta manual, agendador, histórico/reenvio ao Sheets, configurações).
-- 🏗️ **[Diagrama de Classes](data/diagrama_classes.pdf):** estrutura estática do software — `ScraperApp` e suas páginas Tkinter, o orquestrador de coleta (`scraper_passagens.py`), o `LatamScraper` e o `ScrapersUtils`.
-- 🔄 **[Diagrama de Sequência (completo)](data/diagrama_sequencia_completo.pdf):** pipeline completo de uma coleta — criação do driver, retry em caso de sessão inválida, detecção de bloqueio/CAPTCHA, salvamento em Excel, envio opcional ao Google Sheets e limpeza do HTML bruto com verificação de hash MD5.
-- 🔄 **[Diagrama de Sequência (simplificado)](data/diagrama_sequencia.pdf):** apenas o caminho feliz — Usuário → GUI → Agendador → Módulo de Coleta → LATAM → Google Sheets. Útil como visão rápida do fluxo.
+- 📊 **Diagrama de Casos de Uso** ([png](data/diagrama_casos_de_uso.png) · [pdf](data/diagrama_casos_de_uso.pdf)): mapeamento das interações do operador com a ferramenta (coleta manual, agendador, histórico/reenvio ao Sheets, configurações).
+- 🏗️ **Diagrama de Classes** ([png](data/diagrama_classes.png) · [pdf](data/diagrama_classes.pdf)): estrutura estática do software — `ScraperApp` e suas páginas Tkinter, o orquestrador de coleta (`scraper_passagens.py`), o `LatamScraper` e o `ScrapersUtils`.
+- 🔄 **Diagrama de Sequência (completo)** ([png](data/diagrama_sequencia_completo.png) · [pdf](data/diagrama_sequencia_completo.pdf)): pipeline completo de uma coleta — criação do driver, retry em caso de sessão inválida, detecção de bloqueio/CAPTCHA, salvamento em Excel, envio opcional ao Google Sheets e limpeza do HTML bruto com verificação de hash MD5.
+- 🔄 **Diagrama de Sequência (simplificado)** ([png](data/diagrama_sequencia.png) · [pdf](data/diagrama_sequencia.pdf)): apenas o caminho feliz — Usuário → GUI → Agendador → Módulo de Coleta → LATAM → Google Sheets. Útil como visão rápida do fluxo.
 
 ## 🗂️ Materiais Complementares
 
