@@ -1,10 +1,5 @@
 # ✈️ AirPrice — Scraper de Passagens Aéreas
 
-![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)
-![Selenium](https://img.shields.io/badge/Selenium-WebDriver-43B02A.svg)
-![Tkinter](https://img.shields.io/badge/GUI-Tkinter-green.svg)
-![License: GPL v3](https://img.shields.io/badge/license-GPL--3.0--or--later-blue.svg)
-
 > Sistema em Python para coleta automatizada de preços de passagens aéreas da LATAM, com exportação local em Excel e envio opcional para Google Sheets.
 
 O projeto foi desenvolvido para apoiar análises acadêmicas de variação de preços de voos, especialmente em janelas de antecedência de compra. Ele pode ser usado pela interface gráfica ou pelo script de coleta padronizada.
