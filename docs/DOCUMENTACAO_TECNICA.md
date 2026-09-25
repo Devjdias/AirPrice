@@ -168,12 +168,12 @@ O objetivo dessa rotina não é buscar a melhor data de compra, mas registrar o 
 
 ## 11. 🗺️ Modelagem UML
 
-Três diagramas complementam esta documentação, disponíveis em `data/`:
+Três diagramas complementam esta documentação, disponíveis em `data/` (versão `.png` para visualização direta; `.pdf` com o mesmo conteúdo em vetor, para download):
 
-- **[Diagrama de Casos de Uso](../data/diagrama_casos_de_uso.pdf):** interações do Pesquisador/Operador com o sistema — coleta manual, agendador automático, histórico/reenvio ao Google Sheets, configurações e a execução em lote via `coleta_tcc.py`.
-- **[Diagrama de Classes](../data/diagrama_classes.pdf):** `ScraperApp` (janela Tkinter) instanciando `StartPage`, `ExperimentoPage`, `AgendadorPage`, `HistoricoPage` e `ConfigPage`; a relação dessas páginas com as funções de orquestração de `scraper_passagens.py`; e a dependência dessas funções em relação a `latam_scraper.scrape_latam()` e aos utilitários de `scrapers_utils.py`.
-- **[Diagrama de Sequência (completo)](../data/diagrama_sequencia_completo.pdf):** fluxo ponta a ponta de uma coleta, incluindo o retry de driver (até 2 tentativas, com fallback para Incognito), o tratamento de bloqueio/CAPTCHA, o loop de espera por cards de voo, o salvamento em Excel, o envio opcional ao Google Sheets e a limpeza do HTML bruto somente após confirmação do hash MD5.
-- **[Diagrama de Sequência (simplificado)](../data/diagrama_sequencia.pdf):** versão anterior, mostrando apenas o caminho feliz da coleta (Usuário → Interface → Agendador → Módulo de Coleta → LATAM → Google Sheets), mantida como referência rápida.
+- **Diagrama de Casos de Uso** ([png](../data/diagrama_casos_de_uso.png) · [pdf](../data/diagrama_casos_de_uso.pdf)): interações do Pesquisador/Operador com o sistema — coleta manual, agendador automático, histórico/reenvio ao Google Sheets, configurações e a execução em lote via `coleta_tcc.py`.
+- **Diagrama de Classes** ([png](../data/diagrama_classes.png) · [pdf](../data/diagrama_classes.pdf)): `ScraperApp` (janela Tkinter) instanciando `StartPage`, `ExperimentoPage`, `AgendadorPage`, `HistoricoPage` e `ConfigPage`; a relação dessas páginas com as funções de orquestração de `scraper_passagens.py`; e a dependência dessas funções em relação a `latam_scraper.scrape_latam()` e aos utilitários de `scrapers_utils.py`.
+- **Diagrama de Sequência (completo)** ([png](../data/diagrama_sequencia_completo.png) · [pdf](../data/diagrama_sequencia_completo.pdf)): fluxo ponta a ponta de uma coleta, incluindo o retry de driver (até 2 tentativas, com fallback para Incognito), o tratamento de bloqueio/CAPTCHA, o loop de espera por cards de voo, o salvamento em Excel, o envio opcional ao Google Sheets e a limpeza do HTML bruto somente após confirmação do hash MD5.
+- **Diagrama de Sequência (simplificado)** ([png](../data/diagrama_sequencia.png) · [pdf](../data/diagrama_sequencia.pdf)): versão anterior, mostrando apenas o caminho feliz da coleta (Usuário → Interface → Agendador → Módulo de Coleta → LATAM → Google Sheets), mantida como referência rápida.
 
 ## 12. ⚠️ Limitações Atuais
 
